@@ -20,7 +20,7 @@ func main() {
 func fatorialIterativo(n int) uint64 {
 	var result = uint64(1)
 
-	for i := 1; i <= n; i++ {
+	for i := 2; i <= n; i++ {
 		result *= uint64(i)
 	}
 
